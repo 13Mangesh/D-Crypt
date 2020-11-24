@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	border-radius: 10px;
+}
+
+body {
+	border-radius: 30px;
+	font-family: Roboto;
+	/* background-color: aqua; */
+}
+
+.app {
+	border-radius: 20px;
+	height: 100vh;
+	background: url(./Assets/Images/memphis-mini.png);
+	/* background-color: white; */
+}
+
+#appbar {
+	-webkit-app-region: drag;
+	z-index: 10;
+}
+
+@keyframes logo-fill {
+	from {
+		fill: transparent;
+	}
+	to {
+		fill: #5754bd;
+	}
+}
+
+.logo {
+	animation: logo-fill 0.5s ease-in forwards 1.8s;
+}

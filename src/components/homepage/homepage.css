@@ -1,0 +1,14 @@
+.homepage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+#pages {
+	height: 80%;
+}
+
+#menu {
+}

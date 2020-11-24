@@ -1,0 +1,57 @@
+.container {
+	height: 300px;
+	width: 220px;
+	box-shadow: 0 10px 20px black;
+	background-size: cover;
+	position: relative;
+}
+
+.gradient {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	background: linear-gradient(
+		to top,
+		rgba(28, 171, 238, 0.7),
+		rgba(253, 252, 252, 0.21)
+	);
+	color: white;
+}
+
+.content {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	margin-bottom: 5px;
+	padding: 15px;
+}
+
+h2 {
+	font-size: x-large;
+	letter-spacing: -1px;
+}
+
+.details {
+	font-style: italic;
+	color: rgb(185, 206, 224);
+}
+
+.icons {
+	display: flex;
+	flex-direction: column;
+	top: -45px;
+	position: absolute;
+	left: 85%;
+}
+
+.icons > * {
+	font-size: 25px;
+	margin-bottom: 15px;
+	color: rgb(202, 215, 226);
+	transition: 0.3s;
+}
+
+.icons > *:hover {
+	color: white;
+	cursor: pointer;
+}
